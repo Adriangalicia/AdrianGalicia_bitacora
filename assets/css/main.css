@@ -2938,7 +2938,7 @@ input, select, textarea {
 			-webkit-flex-direction: row;
 			-ms-flex-direction: row;
 			flex-direction: row;
-			background-color: #2e3450;
+			background-color: #030700;
 		}
 
 			.spotlights > section > .image {
@@ -2957,7 +2957,7 @@ input, select, textarea {
 				}
 
 				.spotlights > section > .image:before {
-					background: rgba(36, 41, 67, 0.9);
+					background: #030700;
 					content: '';
 					display: block;
 					height: 100%;
@@ -3000,7 +3000,7 @@ input, select, textarea {
 				-webkit-flex-direction: row-reverse;
 				-ms-flex-direction: row-reverse;
 				flex-direction: row-reverse;
-				background-color: #333856;
+				background-color: #030700;
 			}
 
 				.spotlights > section:nth-child(2n) > .content {
@@ -3153,11 +3153,11 @@ input, select, textarea {
 			}
 
 			#header .logo:hover strong {
-				background-color: #9bf1ff;
+				background-color: #030700;
 			}
 
 			#header .logo:active strong {
-				background-color: #53e3fb;
+				background-color: #030700;
 			}
 
 		#header nav {
@@ -3259,27 +3259,27 @@ input, select, textarea {
 		}
 
 			#header.alt.style1 .logo strong {
-				color: #6fc3df;
+				color: #030700;
 			}
 
 			#header.alt.style2 .logo strong {
-				color: #8d82c4;
+				color: #030700;
 			}
 
 			#header.alt.style3 .logo strong {
-				color: #ec8d81;
+				color: #030700;
 			}
 
 			#header.alt.style4 .logo strong {
-				color: #e7b788;
+				color: #030700;
 			}
 
 			#header.alt.style5 .logo strong {
-				color: #8ea9e8;
+				color: #030700;
 			}
 
 			#header.alt.style6 .logo strong {
-				color: #87c5a4;
+				color: #030700;
 			}
 
 		body.is-preload #header.alt {
