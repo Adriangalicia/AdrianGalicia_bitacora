@@ -11,3 +11,27 @@
     height: 200px;
     margin-left: 50px;
 }
+
+<style>
+    .contenedor {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .texto {
+        width: 60%;
+        padding-right: 20px; /* Espacio entre el texto y la imagen */
+    }
+
+    .imagen {
+        width: 33%;
+    }
+
+    .imagenperfil {
+        max-width: 100%; /* Ajusta la imagen al ancho del contenedor */
+        height: auto; /* Ajusta la altura automáticamente */
+    }
+</style>
