@@ -99,7 +99,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #242943;
+		background: rgb(16 20 12);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -3474,7 +3474,7 @@ input, select, textarea {
 				}
 
 				#banner > .inner .content p {
-					font-size: 0.7em;
+					font-size: 0.9em;
 					font-weight: 600;
 					letter-spacing: 0.25em;
 					text-transform: uppercase;
@@ -3798,7 +3798,7 @@ input, select, textarea {
 		-ms-justify-content: center;
 		justify-content: center;
 		pointer-events: none;
-		background: rgba(36, 41, 67, 0.9);
+		background: rgb(36 67 43 / 96%);
 		box-shadow: none;
 		height: 100%;
 		left: 0;
