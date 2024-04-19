@@ -20,3 +20,12 @@
         max-width: 100%; /* Ajusta la imagen al ancho del contenedor */
         height: auto; /* Ajusta la altura automáticamente */
     }
+
+    .deathroadcss {
+        width: 45.5%;
+    }
+
+    .imagendeathroad {
+        max-width: 100%; /* Ajusta la imagen al ancho del contenedor */
+        height: auto; /* Ajusta la altura automáticamente */
+    }
