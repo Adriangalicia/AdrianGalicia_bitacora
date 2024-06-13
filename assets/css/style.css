@@ -1,31 +1,131 @@
-    .contenedor {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        margin-top: 20px;
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.texto {
+    width: 66.6%;
+    padding-right: 100px; /* Espacio entre el texto y la imagen */
+    text-align: justify;
+}
+
+.imagen {
+    width: 33.3%;
+}
+
+.imagenperfil {
+    max-width: 100%; /* Ajusta la imagen al ancho del contenedor */
+    height: auto; /* Ajusta la altura automáticamente */
+}
+
+.deathroadcss {
+    width: 45.5%;
+}
+
+.imagendeathroad {
+    max-width: 100%; /* Ajusta la imagen al ancho del contenedor */
+    height: auto; /* Ajusta la altura automáticamente */
+}
+
+.bitacorasemanal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 45vh;
+    margin: 0;
+}
+
+.bitacoradigi {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+}
+
+.column {
+    width: 48%;
+}
+
+.week {
+    padding: 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+    border: 3px solid white;
+    background-color: black;
+    margin-bottom: 20px;
+    position: relative;
+    color: white;
+}
+
+.week h2 {
+    color: white;
+}
+
+.week h3 {
+    color: white;
+
+}
+
+.info {
+    display: none;
+    padding: 10px;
+    border-top: 2px solid white;
+    margin-top: 10px;        
+}
+
+.left, .right {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.left img, .right img {
+    width: 100%;
+    height: auto;
+}
+
+.left p, .right p {
+    text-align: justify;
+    color: white;
+}
+
+.carruselreels {
+    position: relative;
+    width: 100%;
+    background-color: #111111;
+    margin: 0;
+    padding: 0;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper {
+    width: 80%;
+    overflow: hidden;
+    position: relative; /* Asegura que los botones de navegación se posicionen correctamente */
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide iframe {
+    width: 315px; /* Ajusta el ancho según sea necesario */
+    height: 560px; /* Ajusta la altura según sea necesario */
+}
+
+@media (max-width: 991px) {
+    .carruselreels {
+        padding: 0 20px;
     }
 
-    .texto {
-        width: 66.6%;
-        padding-right: 100px; /* Espacio entre el texto y la imagen */
-        text-align: justify;
+    .swiper-slide iframe {
+        width: 100%;
+        height: auto;
     }
-
-    .imagen {
-        width: 33.3%;
-    }
-
-    .imagenperfil {
-        max-width: 100%; /* Ajusta la imagen al ancho del contenedor */
-        height: auto; /* Ajusta la altura automáticamente */
-    }
-
-    .deathroadcss {
-        width: 45.5%;
-    }
-
-    .imagendeathroad {
-        max-width: 100%; /* Ajusta la imagen al ancho del contenedor */
-        height: auto; /* Ajusta la altura automáticamente */
-    }
+}

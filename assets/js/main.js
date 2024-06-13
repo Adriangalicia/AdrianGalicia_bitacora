@@ -333,3 +333,12 @@
 			});
 
 })(jQuery);
+
+function toggleInfo(weekElement) {
+    const info = weekElement.querySelector('.info');
+    if (info.style.display === 'block') {
+        info.style.display = 'none';
+    } else {
+        info.style.display = 'block';
+    }
+}

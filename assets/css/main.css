@@ -3379,8 +3379,7 @@ input, select, textarea {
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
-		align-items: center;
-		background-image: url("../../images/banner.jpg");
+		align-items: center;		
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3480,11 +3479,7 @@ input, select, textarea {
 					text-transform: uppercase;
 				}
 
-		#banner.major {
-			height: 75vh;
-			min-height: 30em;
-			max-height: 50em;
-		}
+		
 
 			#banner.major.alt {
 				opacity: 0.75;
